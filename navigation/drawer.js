@@ -2,10 +2,10 @@ import React from 'react';
 
 import {createDrawerNavigator} from '@react-navigation/drawer';
 
-import Home from '../screens';
+import {Home} from '../screens';
 const Drawer = createDrawerNavigator();
 
-function drawer() {
+function MyDrawer() {
   return (
     <Drawer.Navigator>
       <Drawer.Screen name="Home" component={Home} />
@@ -15,4 +15,4 @@ function drawer() {
   );
 }
 
-export default drawer;
+export default MyDrawer;
