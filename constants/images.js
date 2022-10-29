@@ -1,10 +1,10 @@
-const loginBackground = require('../assets/images/system/login-background.png');
-
 const philosophy = require('../assets/images/philosophy/philosophy.png');
 const technology = require('../assets/images/technology/technology.png');
 const sport = require('../assets/images/sport/sport.png');
-const manchester = require('../assets/images/sport/sport-news/manchester');
-const meditate = require('../assets/images/philosophy/philosophy-news/meditate');
+const manchester = require('../assets/images/sport/sport-news/manchester.png');
+const meditate = require('../assets/images/philosophy/philosophy-news/meditate.png');
+const science = require('../assets/images/science/science.png');
+const virus = require('../assets/images/science/science-news/virus.png');
 
 const profile = require('../assets/images/dummy_profiles/profile.png');
 const UserProfile1 = require('../assets/images/dummy_profiles/profile-pic-1.png');
@@ -19,13 +19,14 @@ const UserProfile9 = require('../assets/images/dummy_profiles/profile-pic-9.png'
 const UserProfile10 = require('../assets/images/dummy_profiles/profile-pic-10.png');
 
 export default {
-  loginBackground,
   profile,
   philosophy,
   technology,
   sport,
   manchester,
   meditate,
+  science,
+  virus,
 
   UserProfile1,
   UserProfile2,
