@@ -1,7 +1,7 @@
 import images from './images';
 import icons from './icons';
 
-const Explore = [
+const ExploreNews = [
   {
     id: 1,
     category: 'Philosophy',
@@ -9,58 +9,58 @@ const Explore = [
     hottestNews: [
       {
         id: 1,
-        title:
+        newsTitle:
           'Emeke Okeke emerged profressor of philosophy in Babcock University shortly after the school',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile1,
           name: 'Daniel Cobs',
         },
-        image: images.meditate,
-        icon: icons.fire,
+        newsImage: images.meditate,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
-        summary: 'Spaghetti pasta',
-        trending: true,
+        newsSummary: 'Spaghetti pasta',
+        istrending: true,
         ranking: 'Trending No.1',
-        category: 'Philosophy',
+        newsCategory: 'Philosophy',
         subCategory: {
-          profilePic: images.meditate,
-          name: 'Personal Growth',
+          image: images.meditate,
+          nameOfSubCategory: 'Personal Growth',
         },
       },
       {
         id: 2,
-        title:
+        newsTitle:
           'Emeke Okeke emerged profressor of philosophy in Babcock University shortly after the school',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile2,
           name: 'Brown Bradley',
         },
-        image: images.meditate,
-        icon: icons.fire,
+        newsImage: images.meditate,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
-        summary: 'Spaghetti pasta',
-        trending: true,
+        newsSummary: 'Spaghetti pasta',
+        istrending: true,
         ranking: 'Trending No.2',
-        category: 'Philosophy',
+        newscategory: 'Philosophy',
         subCategory: {
-          profilePic: images.meditate,
-          name: 'scholmn',
+          image: images.meditate,
+          nameOfSubCategory: 'scholmn',
         },
       },
       {
         id: 3,
-        title:
+        newsTitle:
           'Manchester United: Christiano Ronaldo Scores An Hat-trick In Recent Times',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile3,
           name: 'Ernest Crane',
         },
-        image: images.meditate,
-        icon: icons.fire,
+        newsImage: images.meditate,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
         category: 'Philosophy',
-        summary: 'Spaghetti pasta',
-        trending: false,
+        newsSummary: 'Spaghetti pasta',
+        istrending: false,
       },
     ],
     viewers: [
@@ -89,48 +89,48 @@ const Explore = [
     hottestNews: [
       {
         id: 1,
-        title:
+        newsTitle:
           'Manchester United: Christiano Ronaldo Scores An Hat-trick In Recent Times',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile1,
           name: 'Asal Thinking',
         },
-        image: images.manchester,
-        icon: icons.fire,
+        newsImage: images.manchester,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
         category: 'Sport',
-        summary: 'Spaghetti pasta',
-        trending: false,
+        newsSummary: 'Spaghetti pasta',
+        istrending: false,
       },
       {
         id: 2,
-        title:
+        newsTitle:
           'Manchester United: Christiano Ronaldo Scores An Hat-trick In Recent Times',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile2,
           name: 'Brown Bradley',
         },
-        image: images.manchester,
-        icon: icons.fire,
+        newsImage: images.manchester,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
         category: 'Sport',
-        summary: 'Spaghetti pasta',
-        trending: false,
+        newsSummary: 'Spaghetti pasta',
+        istrending: false,
       },
       {
         id: 3,
-        title:
+        newsTitle:
           'Manchester United: Christiano Ronaldo Scores An Hat-trick In Recent Times',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile3,
           name: 'Ernest Crane',
         },
-        image: images.manchester,
-        icon: icons.fire,
+        newsImage: images.manchester,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
         category: 'Sport',
-        summary: 'Spaghetti pasta',
-        trending: false,
+        newsSummary: 'Spaghetti pasta',
+        istrending: false,
       },
     ],
     viewers: [
@@ -160,57 +160,57 @@ const Explore = [
     hottestNews: [
       {
         id: 1,
-        title:
+        newsTitle:
           'Emeke Okeke emerged profressor of philosophy in Babcock University shortly after the school',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile1,
           name: 'Daniel Cobs',
         },
-        image: images.technology,
-        icon: icons.fire,
+        newsImage: images.technology,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
-        summary: 'Spaghetti pasta',
-        trending: true,
+        newsSummary: 'Spaghetti pasta',
+        istrending: true,
         ranking: 'Trending No.1',
         category: 'Technology',
         subCategory: {
-          profilePic: images.meditate,
-          name: 'Personal Growth',
+          image: images.meditate,
+          nameOfSubCategory: 'Personal Growth',
         },
       },
       {
         id: 2,
-        title:
+        newsTitle:
           'Emeke Okeke emerged profressor of philosophy in Babcock University shortly after the school',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile2,
           name: 'Brown Bradley',
         },
-        image: images.technology,
-        icon: icons.fire,
+        newsImage: images.technology,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
-        summary: 'Spaghetti pasta',
-        trending: true,
+        newsSummary: 'Spaghetti pasta',
+        istrending: true,
         ranking: 'Trending No.2',
         category: 'Technology',
         subCategory: {
-          profilePic: images.meditate,
-          name: 'scholmn',
+          image: images.meditate,
+          nameOfSubCategory: 'scholmn',
         },
       },
       {
         id: 3,
-        title:
+        newsTitle:
           'Manchester United: Christiano Ronaldo Scores An Hat-trick In Recent Times',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile3,
           name: 'Ernest Crane',
         },
-        image: images.technology,
-        icon: icons.fire,
+        newsImage: images.technology,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
         category: 'Technology',
-        summary: 'Spaghetti pasta',
+        newsSummary: 'Spaghetti pasta',
         trending: false,
       },
     ],
@@ -241,58 +241,58 @@ const Explore = [
     hottestNews: [
       {
         id: 1,
-        title:
+        newsTitle:
           'Emeke Okeke emerged profressor of philosophy in Babcock University shortly after the school',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile1,
           name: 'Daniel Cobs',
         },
-        image: images.science,
-        icon: icons.fire,
+        newsImage: images.science,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
-        summary: 'Spaghetti pasta',
-        trending: true,
+        newsSummary: 'Spaghetti pasta',
+        istrending: true,
         ranking: 'Trending No.1',
         category: 'Science',
         subCategory: {
-          profilePic: images.meditate,
-          name: 'Personal Growth',
+          image: images.meditate,
+          nameOfSubCategory: 'Personal Growth',
         },
       },
       {
         id: 2,
-        title:
+        newsTitle:
           'Emeke Okeke emerged profressor of philosophy in Babcock University shortly after the school',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile2,
           name: 'Brown Bradley',
         },
-        image: images.science,
-        icon: icons.fire,
+        newsImage: images.science,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
-        summary: 'Spaghetti pasta',
-        trending: true,
+        newsSummary: 'Spaghetti pasta',
+        istrending: true,
         ranking: 'Trending No.2',
         category: 'Science',
         subCategory: {
-          profilePic: images.meditate,
-          name: 'scholmn',
+          image: images.meditate,
+          nameOfSubCategory: 'scholmn',
         },
       },
       {
         id: 3,
-        title:
+        newsTitle:
           'Manchester United: Christiano Ronaldo Scores An Hat-trick In Recent Times',
-        author: {
+        newsAuthor: {
           profilePic: images.UserProfile3,
           name: 'Ernest Crane',
         },
-        image: images.science,
-        icon: icons.fire,
+        newsImage: images.science,
+        fireIcon: icons.fire,
         date: 'Today, 10:21',
         category: 'Science',
-        summary: 'Spaghetti pasta',
-        trending: false,
+        newsSummary: 'Spaghetti pasta',
+        istrending: false,
       },
     ],
     viewers: [
@@ -316,9 +316,9 @@ const Explore = [
   },
 ];
 
-const categories = Explore;
+const categories = ExploreNews;
 
 export default {
-  Explore,
+  ExploreNews,
   categories,
 };
