@@ -11,8 +11,8 @@ const Login = ({navigation}) => {
         justifyContent: 'center',
       }}>
       <Text>Login</Text>
-      <TouchableOpacity onPress={() => navigation.navigate('News')}>
-        <Text>Navigate to News</Text>
+      <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+        <Text>Navigate to Home</Text>
       </TouchableOpacity>
     </View>
   );

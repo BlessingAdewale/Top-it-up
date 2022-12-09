@@ -1,7 +1,3 @@
-// import CustomButton from "./CustomButton";
+import TabIcon from './TabIcon';
 
-import DrawerIcon from './DrawerIcon';
-
-import CategoryCard from './CategoryCard';
-
-export {DrawerIcon, CategoryCard};
+export {TabIcon};

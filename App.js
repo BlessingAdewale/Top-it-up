@@ -1,26 +1,39 @@
 import React from 'react';
-import {Login, News} from './screens';
+import { Dashboard, Login } from "./screens";
+import { createStackNavigator } from "@react-navigation/stack";
+import { NavigationContainer } from '@react-navigation/native';
+import { LogBox } from 'react-native';
 
-import {createStackNavigator} from '@react-navigation/stack';
-import {NavigationContainer} from '@react-navigation/native';
-import Drawer from './navigation/drawer';
+LogBox.ignoreLogs(['RCTBridge required dispatch_sync to load REAModule']);
+
+import Tabs from "./navigation/tabs";
 
 const Stack = createStackNavigator();
 
 const App = () => {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}
-        initialRouteName={'Home'}>
-        <Stack.Screen name="Home" component={Drawer} />
-        <Stack.Screen name="Login" component={Login} />
-        <Stack.Screen name="News" component={News} />
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
-};
+    return (
+        <NavigationContainer>
+            <Stack.Navigator
+                screenOptions={{
+                    headerShown: false
+                }}
+                initialRouteName={'HomeScreen'}
+            >
+                <Stack.Screen
+                    name="Login"
+                    component={Login}
+                />
+                <Stack.Screen
+                    name="HomeScreen"
+                    component={Tabs}
+                />
+                <Stack.Screen
+                    name="Dashboard"
+                    component={Dashboard}
+                />
+            </Stack.Navigator>
+        </NavigationContainer>
+    )
+}
 
 export default App;
