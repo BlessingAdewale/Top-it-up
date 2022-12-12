@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    View,
+    Platform
 } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 
@@ -8,7 +8,7 @@ import { History, Home, More, Profile } from "../screens"
 
 import { TabIcon } from "../components";
 
-import { COLORS, icons } from "../constants";
+import { COLORS, icons, SIZES } from "../constants";
 
 const Tab = createBottomTabNavigator()
 
@@ -19,6 +19,8 @@ const Tabs = () => {
             headerShown: false,
             tabBarActiveTintColor: COLORS.secondaryWhite,
             showLabel: true,
+            tabBarLabelStyle: {height: Platform.OS === 'android' ? 25: 12},
+            tabBarStyle: {height: Platform.OS === 'android' ? 70: 72},
             style: {
                 position: 'absolute',
                 bottom: 0,
@@ -27,7 +29,7 @@ const Tabs = () => {
                 elevation: 0,
                 backgroundColor: COLORS.primaryWhite,
                 borderTopColor: "transparent",
-                height: 72
+                height: 72 
             }
         }}
 
